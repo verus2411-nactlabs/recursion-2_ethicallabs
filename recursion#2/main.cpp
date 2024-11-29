@@ -18,8 +18,8 @@ bool checkPrime( int numberCheck, int checkValue){
         return false;
     }
     else{
-        checkValue += 1;
-        checkPrime( numberCheck, checkValue );
+        
+        checkPrime( numberCheck, checkValue + 1 );
     }
     
     return true;
